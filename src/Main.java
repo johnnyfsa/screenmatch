@@ -1,15 +1,19 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args)
+    {
+        Filme meuFilme = new Filme();
+        meuFilme.nome = "O poderoso Chefão";
+        meuFilme.anoDeLancamento = 1970;
+        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.exibirFichaTécnica();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        meuFilme.avaliar(8);
+        meuFilme.avaliar(5);
+        meuFilme.avaliar(10);
+        System.out.println(meuFilme.somaAvaliacoes);
+        System.out.println(meuFilme.totalDeVavaliacoes);
+        System.out.println(meuFilme.calcularMedia());
     }
 }
