@@ -1,0 +1,34 @@
+[
+  {
+    "SomaAvaliacoes": 0.0,
+    "TotalDeVavaliacoes": 0,
+    "DuracaoEmMinutos": 136,
+    "Title": "The Matrix",
+    "Year": 1999,
+    "IncluidoNoPlano": false
+  },
+  {
+    "SomaAvaliacoes": 0.0,
+    "TotalDeVavaliacoes": 0,
+    "DuracaoEmMinutos": 99,
+    "Title": "Reservoir Dogs",
+    "Year": 1992,
+    "IncluidoNoPlano": false
+  },
+  {
+    "SomaAvaliacoes": 0.0,
+    "TotalDeVavaliacoes": 0,
+    "DuracaoEmMinutos": 111,
+    "Title": "Kill Bill: Vol. 1",
+    "Year": 2003,
+    "IncluidoNoPlano": false
+  },
+  {
+    "SomaAvaliacoes": 0.0,
+    "TotalDeVavaliacoes": 0,
+    "DuracaoEmMinutos": 123,
+    "Title": "Godzilla",
+    "Year": 2014,
+    "IncluidoNoPlano": false
+  }
+]
